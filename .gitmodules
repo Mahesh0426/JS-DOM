@@ -1,0 +1,3 @@
+[submodule "CAlculator"]
+	path = CAlculator
+	url = https://github.com/Mahesh0426/js-Calculator.git
