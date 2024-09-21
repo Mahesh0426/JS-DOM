@@ -5,6 +5,7 @@ let state;
 let postCode;
 
 document.getElementById("btn").onclick = function () {
+  console.log("Button clicked");
   streetNumber = document.getElementById("1").value;
 
   streetRoad = document.getElementById("2").value.toUpperCase();

@@ -3,23 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Address Form</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h2>Enter your Full Address :</h2>
-
-    <input type="text" placeholder="Street number" id="1" />
-    <input type="text" placeholder="street road" id="2" /><br /><br />
-    <input type="text" placeholder="suburb" id="3" />
-    <input type="text" placeholder="State" id="4" /><br />
-    <br />
-    <input type="number" placeholder="post-code" id="5" /> <br />
-    <br />
-    <button id="btn">Submit</button>
-    <br /><br />
-
-    <div id="demo"></div>
-
+    <div class="container">
+      <h2>Enter your Full Address:</h2>
+      <input type="text" placeholder="Street number" id="1" />
+      <input type="text" placeholder="Street name" id="2" />
+      <input type="text" placeholder="Suburb" id="3" />
+      <input type="text" placeholder="State" id="4" />
+      <input type="number" placeholder="Post code" id="5" />
+      <button id="btn" type="button">Submit</button>
+      <div id="demo"></div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
